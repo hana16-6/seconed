@@ -1,0 +1,549 @@
+/*start our framework*/
+*{
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+       box-sizing: border-box;  
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+   
+}
+.table{
+    height: 100%;
+    display: table; 
+}
+.table-row{
+    display: table-row
+}
+.text-center{
+    text-align: center
+}
+.upper{
+    text-transform: uppercase;
+}
+.main-color{
+    color: #f7600e
+}
+.main-background{
+     background-color: #f7600e
+}
+.overlay{
+    background: rgba(49,55,61,.8);
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+.hidden{
+  display: none
+}
+::-webkit-input-placeholder{
+    font-size: 14px;
+    font-weight: normal;
+    color: #CCC
+}
+:-moz-input-placeholder{
+    font-size: 14px;
+    font-weight: normal
+}
+:-ms-input-placeholder{
+    font-size: 14px;
+    font-weight: normal
+}
+
+/*end our framework*/
+/* start header*/
+.header{
+    background: url(../pics/pexels-life-of-pix-7974.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF
+
+}
+
+.header .navbar{
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%
+        
+    
+}
+.header .navbar .logo{
+    font-size: 42px;
+}
+.header .navbar .links{
+    float: right
+}
+.header .navbar .links i{
+    margin-left: 5px;
+}
+.header .intro h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;  
+}
+.header .intro p{
+    margin: 10px 0 40px ;
+    line-height: 1.9;
+    font-size: 20px;
+    color: #E2E2E2
+}
+.header .buttons button{
+    background: transparent;
+    width: 100px;
+    font-size: 14px;
+    padding: 10px 0;
+    border: 1px solid #909090;
+    outline: none;
+    margin: 0 8px;
+    border-radius: 10px;
+    color: #FFF;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out; 
+}
+.header .buttons button:hover{
+    background-color: #f7600e;
+     border: 1px solid #f7600e;
+    color: #FFF
+}
+.header .arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+    
+}
+.header .arrow i{
+    border: 2px solid #7B7B7B;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    cursor: pointer
+}
+/* end header*/
+/* start features*/
+.features{
+    padding: 80px 0;
+    overflow: hidden
+}
+.features .box{
+    width: 22%;
+    float: left;
+    margin-right: 4%
+}
+.features .box:last-child{
+    margin-right: 0
+}
+.features .box i{
+    color: #f7600e;
+    border: 1px solid #CCC;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 40px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+.features .box i:hover{
+    background-color: #f7600e;
+    color: #FFF;
+    border: 1px solid #f7600e
+}
+.features .box h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #505050
+}
+.features .box p{
+    line-height: 2;
+    color: #888;
+}
+/* end features*/
+/* start subscribe*/
+.subscribe{
+    background: url(../pics/pexels-burst-374006.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+      
+}
+.subscribe form{
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.subscribe form input[type="email"]{
+    padding:0 10px;
+    width: 320px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    border: none;
+    outline: none;
+    height: 37px;
+    line-height: 37px;
+    font-family: none
+ 
+}
+.subscribe form button{
+    padding: 10px;
+    width: 180px;
+    border: none;
+    outline: none;
+    background-color: #f7600e;
+    color: #FFF;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 14px
+}
+
+/* end subscribe*/
+/* start our work*/
+.our-work {
+    padding: 50px 0;
+}
+.our-work h2{
+    font-family: none;;
+    font-size: 30px;
+    margin-bottom: 0;
+    
+}
+.our-work h2 ~ p{
+    line-height: 2;
+    margin: 10px 0 50px;
+}
+.our-work .show-more{
+    background: transparent;
+    border: 1px solid #CCC;
+    outline: none;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+.our-work .show-more:hover{
+    background-color: #f7600e;
+    color: #FFF;
+    border: 1px solid #f7600e
+}
+.our-work .items-box .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px
+}
+.our-work .items-box .item{
+    overflow: hidden;
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 1.3333333%;
+    margin-bottom: 12px;
+    position: relative;
+    height: 240px
+   
+}
+.our-work .items-box .item .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247,96,14,.9);
+    color: #FFF;
+     border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: none;
+}
+.our-work .items-box .item:hover .over{
+    display: block;
+}
+.our-work .item .over h4{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    
+    
+}
+.our-work .item .over p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+.our-work .item .over button{
+    background-color: transparent;
+    border: 1px solid #FFF;
+    outline: none;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 0;
+    color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+.our-work .item .over button:hover{
+     background-color: #FFF;
+    color: #f7600e;
+    border: 1px solid #FFF
+    
+}
+.testim{
+   
+    background: url(../pics/pexels-jens-mahnke-776114.jpg);
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.testim .client{
+     padding: 50px 0;
+    color: #FFF;
+    font-size: 20px
+}
+.testim .client img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px
+}
+.testim .client p{
+    line-height: 2;
+    font-style: italic
+  ;
+    
+}
+.testim .fa-chevron-right,
+.testim .fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    color: #999;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+.testim .fa-chevron-right{
+    right: 0;
+}
+.testim .fa-chevron-left{
+    left: 0;
+}
+.testim .fa-chevron-right:hover,
+.testim .fa-chevron-left:hover{
+    color: #f7600e
+}
+/* end our work*/
+
+
+/*start our team*/
+.our-team{
+    padding: 50px 0;
+    
+}
+.our-team h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    font-family: none;
+}
+.our-team .main{
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #666;
+   
+}
+.our-team .the-team{
+    
+    overflow: hidden;
+    
+}
+.our-team .the-team .person{
+    float: left;
+    width: 24%;
+    margin-left:1%;
+    padding: 0;
+    color: #888;
+    
+}
+.our-team .the-team .person:hover img{
+   
+    filter: none;
+     -wibkit-filter: grayscale(0);
+    
+}
+.our-team .the-team .person:hover{
+    color: #555
+}
+
+.our-team .the-team .person:hover .fa-facebook-f {
+    background-color: #3b5998
+}
+.our-team .the-team .person:hover .fa-google-plus-g{
+    background-color: #dd4b39
+    
+}
+.our-team .the-team .person:hover .fa-twitter{
+ background-color: #1da1f2   
+}
+.our-team .the-team .person img{
+     border-radius: 10px;
+    width: 265px;
+    height: 290px;
+    filter: gray;
+    filter: grayscale(1);
+    -wibkit-filter: grayscale(1);
+}
+.our-team .the-team .person p{
+    font-size: 15px;
+}
+
+.our-team .the-team .social-icons i{
+    background-color:#9da1a5;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #FFF;
+    border-radius: 50%;
+}
+/*end our team*/
+/*start contact form*/
+.contact{
+ background: url(../pics/pexels-tatiana-syrikova-3975677.jpg);
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.contact .overlay{
+    padding: 50px 0;
+    color: #FFF
+}
+.contact h2{
+    font-size: 30px;
+    
+}
+.contact form {
+  width: 700px;
+    text-align: center;
+    margin:50px  auto;
+    overflow: hidden
+}
+.contact form input[type="text"],
+.contact form input[type="email"]{
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #CCC
+}
+.contact form input[type="text"]{
+    float: left;
+}
+.contact form input[type="email"]{
+    float: right;
+}
+.contact form textarea{
+    margin-top: 20px;
+    width: 100%;
+     padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #CCC
+}
+    
+.contact form .info{
+    overflow: hidden;
+    margin-top: 10px
+}
+.contact form .info button{
+    float: left;
+     padding: 10px;
+    width: 180px;
+    border: none;
+    outline: none;
+    background-color: #f7600e;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 4px;
+
+    
+}
+.contact form .info .form-icons{
+    float: right;
+   
+}
+
+.contact form .info .form-icons i{
+    background-color:#9da1a5;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    border-radius: 50%;
+    margin: 4px
+}
+.contact form .info .form-icons .fa-facebook-f {
+    background-color: #3b5998
+}
+.contact form .info .form-icons .fa-google-plus-g{
+    background-color: #dd4b39
+    
+}
+.contact form .info .form-icons .fa-twitter{
+ background-color: #1da1f2   
+}
+.contact form .info .form-icons .fa-github{
+    background-color: #333
+}
+.contact form .info .form-icons .fa-pinterest-p{
+     background-color: #e60023
+}
+.footer{
+    background-color: #3b434c;
+    color: #FFF;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.footer .copyright{
+    float: left
+}
+.footer .design{
+    float: right
+}
+/*end contact form*/
+
